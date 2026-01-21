@@ -1,14 +1,10 @@
 import { defineConfig } from "eslint/config";
 import globals from "globals";
-import react from "eslint-plugin-react";
-import reactHooks from "eslint-plugin-react-hooks";
+
 import prettier from "eslint-plugin-prettier";
 import prettierConfig from "eslint-config-prettier";
 
-
 export default defineConfig([
-  react.configs.recommended,
-  reactHooks.configs.recommended,
   prettierConfig,
   {
     ignores: ["eslint.config.mjs", "node_modules", "dist", "build"],
@@ -18,8 +14,8 @@ export default defineConfig([
       globals: { ...globals.browser },
     },
     plugins: {
-      react,
-      prettier,
+      react: react,
+      prettier: prettier
     },
     rules: {
       "react/prop-types": "off",
