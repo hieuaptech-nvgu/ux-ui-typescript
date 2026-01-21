@@ -26,8 +26,13 @@
     "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix --cache",
     "prettier": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "prettier:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md}\"",
-    "lint:all": "npm run lint && npm run prettier",
     "prepare": "husky"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -55,6 +60,7 @@
     "eslint-plugin-react": "^7.37.5",
     "globals": "^17.0.0",
     "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "prettier": "^3.8.0",
     "rimraf": "^6.1.2",
     "tsc-alias": "^1.8.16",
