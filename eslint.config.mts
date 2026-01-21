@@ -48,7 +48,7 @@ export default [
         },
       ],
 
-      "no-console": "warn",
+      "no-console": "error",
     },
   },
 ];
