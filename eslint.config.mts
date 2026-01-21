@@ -47,8 +47,8 @@ export default [
           jsxSingleQuote: true,
         },
       ],
-      
-      "no-console": ["error", { allow: ["warn", "error"] }]
+
+      "no-console": "warn",
     },
   },
 ];
