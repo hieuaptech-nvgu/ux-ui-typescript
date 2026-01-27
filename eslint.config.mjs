@@ -25,7 +25,7 @@ export default defineConfig([
     rules: {
       semi: "off",
       "prefer-const": "error",
-      "no-console": ["error", { allow: ["warn", "error"] }],
+      "no-console": ["error"],
       "prettier/prettier": "warn",
     },
   },
