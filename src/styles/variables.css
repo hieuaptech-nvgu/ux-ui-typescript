@@ -1,0 +1,16 @@
+:root {
+  --bg-page: #23272f;
+  --bg-page-bold: #181a20;
+  --bg-surface: #111827;
+  --bg-elevated: #1f2937;
+  --bg-shallow: #333a45;
+
+  --text-primary: #F6F7F9;
+  --text-secondary: #e6e7eb;
+  --text-muted: #99a1b3;
+
+  --accent-primary: #56bfd6;
+  --accent-hover: #283542;
+
+  --border-default: #1f2937;
+}

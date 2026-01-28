@@ -1,0 +1,37 @@
+.title{
+  font-size: 13px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin: 8px 8px 8px 25px;
+
+}
+
+.list{
+  padding: 0;
+}
+
+.item{
+  list-style: none;
+}
+
+.link{
+  padding: 15px 25px;
+  font-size: 15px;
+  display: block;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.item:hover .link {
+  background-color: var(--bg-shallow);
+  color: var(--accent-primary);
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+@media (max-width: 991px){
+  .sidebar{
+    display: none;
+  }
+}
