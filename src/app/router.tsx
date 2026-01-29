@@ -1,7 +1,16 @@
-import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import HomePage from '../pages/home/home'
+import BlogPage from '../pages/blog/blog'
+import BlogDetailPage from '../pages/blog/detail'
 
-const router = () => {
-  return <div></div>
+export default function AppRouter() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/blog' element={<BlogPage />} />
+        <Route path='/blog/:slug' element={<BlogDetailPage />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
-
-export default router

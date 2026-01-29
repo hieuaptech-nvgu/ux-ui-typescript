@@ -1,16 +1,19 @@
+/* ===== THEME TOKENS ===== */
+
 :root {
-  --bg-page: #23272f;
-  --bg-page-bold: #181a20;
-  --bg-surface: #111827;
-  --bg-elevated: #1f2937;
-  --bg-shallow: #333a45;
+  /* Light theme */
+  --bg-background: #ffffff;
+  --foreground: #0f172a;
+  --muted: #475569;
+  --border: #e2e8f0;
+  --primary: #2563eb;
+}
 
-  --text-primary: #F6F7F9;
-  --text-secondary: #e6e7eb;
-  --text-muted: #99a1b3;
-
-  --accent-primary: #56bfd6;
-  --accent-hover: #283542;
-
-  --border-default: #1f2937;
+/* Dark theme */
+[data-theme='dark'] {
+  --bg-background: #020617;
+  --foreground: #e5e7eb;
+  --muted: #94a3b8;
+  --border: #1e293b;
+  --primary: #38bdf8;
 }
