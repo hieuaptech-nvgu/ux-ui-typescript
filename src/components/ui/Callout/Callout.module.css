@@ -1,0 +1,19 @@
+.callout{
+    padding: 16px 18px;
+    border-radius: 14px;
+    background-color: #25353a;
+}
+
+.callout_header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: #44ac99;
+    font-size: 1.15rem;
+}
+
+.callout_content{
+    font-size: 0.85rem;
+    margin-top: 15px;
+}
