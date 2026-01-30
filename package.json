@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.126",
+    "clsx": "^2.1.1",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.563.0",
     "react": "^19.2.3",
