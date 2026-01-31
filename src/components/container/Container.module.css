@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+
+/* ===== WIDTH VARIANTS ===== */
+
+.default {
+  max-width: 860px; /* blog sweet spot */
+}
+
+.wide {
+  max-width: 1100px;
+}
+
+.narrow {
+  max-width: 680px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-inline: 32px;
+  }
+}

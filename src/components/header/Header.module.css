@@ -1,0 +1,139 @@
+.header {
+  padding: 15px 0px;
+}
+
+.first_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  color: var(--foreground);
+  cursor: pointer;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.menu:hover {
+  transform: scale(1.06);
+  background-color: var(--primary-hover);
+}
+
+.logo {
+  text-decoration: none;
+  font-size: var(--heading-h4);
+  font-weight: 600;
+  color: rgb(88 196 220);
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: none;
+}
+
+.head_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav_item {
+  text-decoration: none;
+  color: var(--foreground);
+  padding: 10px 16px;
+  font-weight: 400;
+  transition: background-color 0.2s ease;
+  border-radius: 30px;
+}
+
+.nav_item:hover {
+  background-color: var(--primary-hover);
+}
+
+.head_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.actions button {
+  padding: 10px 13px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.actions button:hover {
+  background-color: var(--primary-hover);
+}
+
+.icon_theme {
+  color: var(--foreground);
+}
+
+.themeBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.nav_item.active {
+  background-color: var(--primary-hover);
+  color: rgb(88 196 220);
+  font-weight: 500;
+}
+
+/* ===== Mobile first ===== */
+
+/* ≥ 640px (sm) */
+@media (min-width: 640px) {
+}
+
+/* ≥ 768px (md) */
+@media (min-width: 768px) {
+}
+
+/* ≥ 1024px (lg) */
+@media (min-width: 1024px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+/* ≥ 1280px (xl) */
+@media (min-width: 1280px) {
+}
+
+/* ≥ 1536px (2xl) */
+@media (min-width: 1536px) {
+}

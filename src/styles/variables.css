@@ -7,6 +7,20 @@
   --muted: #475569;
   --border: #e2e8f0;
   --primary: #2563eb;
+
+  --primary-hover: #e6f7ff;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+
+  --heading-h6: 1.125rem;
+  --heading-h5: 1.25rem;
+  --heading-h4: 1.5rem;
+  --heading-h3: 1.875rem;
+  --heading-h2: 2.25rem;
+  --heading-h1: 2.75rem;
 }
 
 /* Dark theme */
@@ -16,4 +30,7 @@
   --muted: #94a3b8;
   --border: #1e293b;
   --primary: #38bdf8;
+
+  --primary-hover: #333a45;
+
 }

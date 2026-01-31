@@ -1,11 +1,17 @@
-export interface BlogMeta {
-  title: string
-  date: string
-  description?: string
-  tags?: string[]
+export interface BlogAuthor {
+  name: string
+  avatar: string
+  url?: string
 }
 
-export interface ParsedPost {
-  meta: BlogMeta
-  content: string
+export interface BlogPost {
+  id: string
+  slug: string
+  title: string
+  description: string
+  coverImage: string
+  publishedAt: string
+  readingTime: number
+  author: BlogAuthor
+  tags: string[]
 }
