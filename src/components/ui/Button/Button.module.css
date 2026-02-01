@@ -1,0 +1,33 @@
+.btn{
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+.default{
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.ghost{
+  background-color: red;
+}
+
+.outline{
+  background-color: transparent;
+  color: var(--foreground);
+  border: 1px solid var(--foreground);
+}
+
+.sm{
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.lg {
+  padding: 16px 24px;
+  font-size: 18px;
+}

@@ -1,0 +1,48 @@
+.post_card {
+  border-radius: 14px;
+  padding: 16px;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid var(--border-subtle);
+
+}
+
+
+.post_publishAt {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.post_title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: var(--foreground);
+}
+
+.post_title:hover{
+  text-decoration: underline;
+}
+
+.post_description {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post_readMore {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
+.post_readMore:hover{
+  text-decoration: underline;
+}

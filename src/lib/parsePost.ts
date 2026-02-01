@@ -1,3 +1,0 @@
-export function parsePost() {
-  return {}
-}

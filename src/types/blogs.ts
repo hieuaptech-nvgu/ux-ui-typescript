@@ -11,7 +11,6 @@ export interface BlogPost {
   description: string
   coverImage: string
   publishedAt: string
-  readingTime: number
   author: BlogAuthor
   tags: string[]
 }

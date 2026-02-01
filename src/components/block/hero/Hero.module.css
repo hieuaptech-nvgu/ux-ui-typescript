@@ -1,0 +1,31 @@
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0px;
+}
+
+.box_content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  gap: 20px;
+  text-align: center;
+}
+
+.hero_title{
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 45px;
+}
+
+.hero_intro{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hero_jump{
+  width: 250px;
+}

@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import { useTheme } from '../../providers/theme-provider'
+import { useTheme } from '../../../providers/theme-provider'
 import { Sun, Moon } from 'lucide-react'
 
 export default function HeaderActions() {

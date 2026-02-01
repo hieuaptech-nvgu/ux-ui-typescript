@@ -1,5 +1,20 @@
 .header {
   padding: 15px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  transition: background-color 0.1s ease, box-shadow 0.1s ease;
+  z-index: 1000;
+}
+
+.scrolled {
+  background-color: var(--bg-background);
+  border-bottom: 1px solid var(--border-subtle);
+  
 }
 
 .first_menu {
@@ -34,6 +49,7 @@
   font-weight: 600;
   color: rgb(88 196 220);
 }
+
 
 .inner {
   display: flex;

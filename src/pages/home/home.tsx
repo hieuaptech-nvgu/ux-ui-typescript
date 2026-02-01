@@ -1,14 +1,11 @@
-import Callout from '../../components/ui/Callout/Callout'
-import { CALLOUT_MOCKS } from 'data/callouts'
+import Hero from 'components/block/hero/Hero'
+import LatestPosts from 'components/blog/LatestPosts/LatestPosts'
 
 export default function HomePage() {
   return (
-    <section style={{ maxWidth: 720, margin: '0 auto' }}>
-      {CALLOUT_MOCKS.map((item) => (
-        <Callout key={item.id} variant={item.variant} title={item.title}>
-          {item.content}
-        </Callout>
-      ))}
-    </section>
+    <>
+      <Hero />
+      <LatestPosts />
+    </>
   )
 }

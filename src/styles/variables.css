@@ -3,10 +3,15 @@
 :root {
   /* Light theme */
   --bg-background: #ffffff;
+  --bg-posts: #eefcff;
   --foreground: #0f172a;
   --muted: #475569;
   --border: #e2e8f0;
-  --primary: #2563eb;
+  --primary: #38bdf8;
+
+
+  --border-subtle: rgb(221 223 230);
+  --border-default: rgba(255, 255, 255, 0.15);
 
   --primary-hover: #e6f7ff;
 
@@ -26,10 +31,14 @@
 /* Dark theme */
 [data-theme='dark'] {
   --bg-background: #020617;
-  --foreground: #e5e7eb;
+  --bg-posts: #173b44;
+  --foreground: #F6F7F9;
   --muted: #94a3b8;
   --border: #1e293b;
-  --primary: #38bdf8;
+  --primary: rgb(88 196 220);
+
+  --border-subtle: rgb(61 68 82);
+  
 
   --primary-hover: #333a45;
 
