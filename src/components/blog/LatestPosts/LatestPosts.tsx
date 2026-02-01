@@ -7,7 +7,7 @@ export default function LatestPosts() {
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, 3)
   return (
-    <section>
+    <section className={styles.latestPosts}>
       <h2>Bài viết mới nhất</h2>
 
       <div className={styles.box_postLatest}>

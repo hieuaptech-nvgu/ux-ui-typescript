@@ -1,3 +1,9 @@
+
+
+.container_latest{
+  padding: 25px 0px;
+}
+
 .box_postLatest{
   display: flex;
   flex-direction: column;

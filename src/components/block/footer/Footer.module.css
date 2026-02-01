@@ -1,0 +1,21 @@
+.footer{
+  border-top: 1px solid var(--border-subtle);
+  padding: 25px 0px;
+}
+
+.footer_content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright{
+  color: var(--muted);
+  text-align: center;
+}
+
+.logo_footer{
+    text-decoration: none;
+  font-size: var(--heading-h4);
+  font-weight: 600;
+  color: rgb(88 196 220);
+}

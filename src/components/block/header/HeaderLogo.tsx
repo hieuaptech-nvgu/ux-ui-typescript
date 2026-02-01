@@ -10,7 +10,7 @@ export default function HeaderLogo() {
       </button>
 
       <NavLink to='/' className={styles.logo}>
-        Hieu.<span>Aptech</span>
+        Hieu.Aptech
       </NavLink>
     </div>
   )
